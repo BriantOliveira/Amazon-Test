@@ -14,4 +14,9 @@ Logged out user can search for products
     Then search results contain relevant products
 
 
-Logged out user can view a product 
+Logged out user can view a product
+    [Tags]  Smoke
+    Given User is not logged in
+    And user searched for products
+    And search results contains relevant products
+    And user selects a prodcut from search results
