@@ -39,6 +39,7 @@ Begin Web Test
     Open Browser  about:blank  chrome
 
 Search for Product
+    Go to  http://www.amazon.com
     Wait Until Page Contains  Your Amazon.com
     Input Text  id=twotabsearchtextbox   Ferrari 458
     Click Button  x=path=//*[@id="nav-search"]/form/div[2]/div/input
