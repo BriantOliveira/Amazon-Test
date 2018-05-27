@@ -29,7 +29,8 @@ User must sign into check out
     #Begin Web test (common)
     Open Browser  about:blank  chrome
 
-    #Search
+
+    #Search for Products
     Go to  http://www.amazon.com  chrome
     Wait Until Page Contains  Your Amazon.com
     Input Text  id=twotabsearchtextbox   Ferrari 458
@@ -37,8 +38,42 @@ User must sign into check out
     Wait Until Page Contains  results for "Feeari 458"
 
 
+    #Select Product from Search Results
     Click Link  css=#result_O a.s-acess-detail-page
     Wait Until Page Contains  Back to search results
+
+
+    #Add Product to Card
     Click Button  id=add-to-cart-button
     Wait Until Page Contains  1 item added to Cart
+
+
+    #Begin Checkout
     Click Link  Proceed to Checkout
+    Page Should Contain Element  ap_signin1a_pagelet_title
+    Element Text Should Be  ap_signin1a_pagelet_title  Sign In
+
+
+    #End Web Test (common)
+    Close Browser
+
+
+*** Keywords ***
+Begin Web Test
+
+
+Search for Product
+
+
+Select Product from Search Results
+
+
+Add Product to Cart
+
+
+Begin Checkout
+
+
+End Web Test
+
+
