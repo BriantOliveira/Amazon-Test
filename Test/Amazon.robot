@@ -25,28 +25,12 @@ Logged out user can view a product
 User must sign into check out
     [Documentation]  This is going to test the checkout process
     [Tags]  Smoke
-
-    #Begin Web test (common)
-
-
-
-    #Search for Products
-
-
-
-    #Select Product from Search Results
-
-
-
-    #Add Product to Card
-
-
-
-    #Begin Checkout
-
-
-
-    #End Web Test (common)
+    Begin Web test
+    Search for Products
+    Select Product from Search Results
+    Add Product to Card
+    Begin Checkout
+    End Web Test
     Close Browser
 
 
