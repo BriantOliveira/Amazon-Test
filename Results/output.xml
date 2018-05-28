@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20180527 17:26:43.963" generator="Robot 3.0.4 (Python 2.7.10 on darwin)">
+<robot generated="20180527 17:28:22.507" generator="Robot 3.0.4 (Python 2.7.10 on darwin)">
 <suite source="/Users/elliotbriant/Documents/Amazon-Test/test/Amazon.robot" id="s1" name="Amazon">
 <kw type="setup" name="Insert Testing Data">
-<msg timestamp="20180527 17:26:43.997" level="FAIL">No keyword with name 'Insert Testing Data' found.</msg>
-<status status="FAIL" endtime="20180527 17:26:43.998" starttime="20180527 17:26:43.997"></status>
+<msg timestamp="20180527 17:28:22.539" level="FAIL">No keyword with name 'Insert Testing Data' found.</msg>
+<status status="FAIL" endtime="20180527 17:28:22.539" starttime="20180527 17:28:22.539"></status>
 </kw>
 <test id="s1-t1" name="User must sign into check out">
 <doc>This is going to test the checkout process</doc>
 <tags>
 <tag>Smoke</tag>
 </tags>
-<status status="FAIL" endtime="20180527 17:26:43.998" critical="yes" starttime="20180527 17:26:43.998">Parent suite setup failed:
+<status status="FAIL" endtime="20180527 17:28:22.539" critical="yes" starttime="20180527 17:28:22.539">Parent suite setup failed:
 No keyword with name 'Insert Testing Data' found.</status>
 </test>
 <kw type="teardown" name="Cleanup Test Data">
-<msg timestamp="20180527 17:26:44.000" level="FAIL">No keyword with name 'Cleanup Test Data' found.</msg>
-<status status="FAIL" endtime="20180527 17:26:44.000" starttime="20180527 17:26:44.000">No keyword with name 'Cleanup Test Data' found.</status>
+<msg timestamp="20180527 17:28:22.541" level="FAIL">No keyword with name 'Cleanup Test Data' found.</msg>
+<status status="FAIL" endtime="20180527 17:28:22.541" starttime="20180527 17:28:22.541">No keyword with name 'Cleanup Test Data' found.</status>
 </kw>
 <doc>This is some simple information about the whole suite</doc>
-<status status="FAIL" endtime="20180527 17:26:44.001" starttime="20180527 17:26:43.971">Suite setup failed:
+<status status="FAIL" endtime="20180527 17:28:22.541" starttime="20180527 17:28:22.514">Suite setup failed:
 No keyword with name 'Insert Testing Data' found.
 
 Also suite teardown failed:
@@ -37,7 +37,7 @@ No keyword with name 'Cleanup Test Data' found.</status>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20180527 17:26:43.994" level="ERROR">Error in file '/Users/elliotbriant/Documents/Amazon-Test/test/Amazon.robot': Resource file 'Resources/Common.robot' does not exist.</msg>
-<msg timestamp="20180527 17:26:43.995" level="ERROR">Error in file '/Users/elliotbriant/Documents/Amazon-Test/test/Amazon.robot': Resource file 'Resources/Amazon.robot' does not exist.</msg>
+<msg timestamp="20180527 17:28:22.536" level="ERROR">Error in file '/Users/elliotbriant/Documents/Amazon-Test/test/Amazon.robot': Resource file 'Resources/Common.robot' does not exist.</msg>
+<msg timestamp="20180527 17:28:22.537" level="ERROR">Error in file '/Users/elliotbriant/Documents/Amazon-Test/test/Amazon.robot': Resource file 'Resources/Amazon.robot' does not exist.</msg>
 </errors>
 </robot>
