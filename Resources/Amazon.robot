@@ -3,9 +3,6 @@ Library   Selenium2Library
 
 
 *** Keywords ***
-Begin Web Test
-    Open Browser  about:blank  chrome
-
 Search for Product
     Go to  http://www.amazon.com
     Wait Until Page Contains  Your Amazon.com
@@ -26,5 +23,3 @@ Begin Checkout
     Page Should Contain Element  ap_signin1a_pagelet_title
     Element Text Should Be  ap_signin1a_pagelet_title  Sign In
 
-End Web Test
-    Close Browser
