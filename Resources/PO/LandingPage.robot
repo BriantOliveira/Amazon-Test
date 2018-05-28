@@ -4,7 +4,7 @@ Library  SeleniumLibrary
 
 *** Keywords ***
 Load
-    Go To http://www.amazon.com
+    Go To  http://www.amazon.com
 
 
 Verify Page Loaded
