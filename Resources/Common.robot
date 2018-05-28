@@ -9,3 +9,11 @@ Begin Web Test
 
 End Web Test
     Close Browser
+
+
+Insert Testing Data
+    Log  I am setting up the test data...
+
+
+Cleanup Testing Data
+    Log  I am setting up the test data...

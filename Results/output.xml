@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20180527 17:16:58.896" generator="Robot 3.0.4 (Python 2.7.10 on darwin)">
+<robot generated="20180527 17:18:20.661" generator="Robot 3.0.4 (Python 2.7.10 on darwin)">
 <suite source="/Users/elliotbriant/Documents/Amazon-Test/test/Amazon.robot" id="s1" name="Amazon">
 <test id="s1-t1" name="User must sign into check out">
 <kw type="setup" name="Begin Web Test">
-<msg timestamp="20180527 17:16:58.930" level="FAIL">No keyword with name 'Begin Web Test' found.</msg>
-<status status="FAIL" endtime="20180527 17:16:58.930" starttime="20180527 17:16:58.930"></status>
+<msg timestamp="20180527 17:18:20.696" level="FAIL">No keyword with name 'Begin Web Test' found.</msg>
+<status status="FAIL" endtime="20180527 17:18:20.696" starttime="20180527 17:18:20.696"></status>
 </kw>
 <kw type="teardown" name="End Web Test">
-<msg timestamp="20180527 17:16:58.931" level="FAIL">No keyword with name 'End Web Test' found.</msg>
-<status status="FAIL" endtime="20180527 17:16:58.932" starttime="20180527 17:16:58.931">No keyword with name 'End Web Test' found.</status>
+<msg timestamp="20180527 17:18:20.698" level="FAIL">No keyword with name 'End Web Test' found.</msg>
+<status status="FAIL" endtime="20180527 17:18:20.698" starttime="20180527 17:18:20.698">No keyword with name 'End Web Test' found.</status>
 </kw>
 <doc>This is going to test the checkout process</doc>
 <tags>
 <tag>Smoke</tag>
 </tags>
-<status status="FAIL" endtime="20180527 17:16:58.932" critical="yes" starttime="20180527 17:16:58.927">Setup failed:
+<status status="FAIL" endtime="20180527 17:18:20.698" critical="yes" starttime="20180527 17:18:20.694">Setup failed:
 No keyword with name 'Begin Web Test' found.
 
 Also teardown failed:
 No keyword with name 'End Web Test' found.</status>
 </test>
 <doc>This is some simple information about the whole suite</doc>
-<status status="FAIL" endtime="20180527 17:16:58.932" starttime="20180527 17:16:58.904"></status>
+<status status="FAIL" endtime="20180527 17:18:20.699" starttime="20180527 17:18:20.669"></status>
 </suite>
 <statistics>
 <total>
@@ -36,7 +36,7 @@ No keyword with name 'End Web Test' found.</status>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20180527 17:16:58.926" level="ERROR">Error in file '/Users/elliotbriant/Documents/Amazon-Test/test/Amazon.robot': Resource file 'Resources/Common.robot' does not exist.</msg>
-<msg timestamp="20180527 17:16:58.927" level="ERROR">Error in file '/Users/elliotbriant/Documents/Amazon-Test/test/Amazon.robot': Resource file 'Resources/Amazon.robot' does not exist.</msg>
+<msg timestamp="20180527 17:18:20.693" level="ERROR">Error in file '/Users/elliotbriant/Documents/Amazon-Test/test/Amazon.robot': Resource file 'Resources/Common.robot' does not exist.</msg>
+<msg timestamp="20180527 17:18:20.694" level="ERROR">Error in file '/Users/elliotbriant/Documents/Amazon-Test/test/Amazon.robot': Resource file 'Resources/Amazon.robot' does not exist.</msg>
 </errors>
 </robot>
