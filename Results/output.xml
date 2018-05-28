@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20180527 19:00:25.628" generator="Robot 3.0.4 (Python 2.7.10 on darwin)">
+<robot generated="20180527 19:09:07.962" generator="Robot 3.0.4 (Python 2.7.10 on darwin)">
 <suite source="/Users/elliotbriant/Documents/Amazon-Test/tests/amazon.robot" id="s1" name="Amazon">
 <test id="s1-t1" name="Logged out user can search for products">
-<kw type="setup" name="Begin Web Test">
-<msg timestamp="20180527 19:00:25.661" level="FAIL">No keyword with name 'Begin Web Test' found.</msg>
-<status status="FAIL" endtime="20180527 19:00:25.661" starttime="20180527 19:00:25.661"></status>
+<kw type="setup" name="Common.Begin Web Test">
+<msg timestamp="20180527 19:09:07.995" level="FAIL">No keyword with name 'Common.Begin Web Test' found.</msg>
+<status status="FAIL" endtime="20180527 19:09:07.995" starttime="20180527 19:09:07.995"></status>
 </kw>
-<kw type="teardown" name="End Web Test">
-<msg timestamp="20180527 19:00:25.663" level="FAIL">No keyword with name 'End Web Test' found.</msg>
-<status status="FAIL" endtime="20180527 19:00:25.663" starttime="20180527 19:00:25.663">No keyword with name 'End Web Test' found.</status>
+<kw type="teardown" name="Common.End Web Test">
+<msg timestamp="20180527 19:09:07.997" level="FAIL">No keyword with name 'Common.End Web Test' found.</msg>
+<status status="FAIL" endtime="20180527 19:09:07.997" starttime="20180527 19:09:07.997">No keyword with name 'Common.End Web Test' found.</status>
 </kw>
 <tags>
 <tag>Smoke</tag>
 </tags>
-<status status="FAIL" endtime="20180527 19:00:25.663" critical="yes" starttime="20180527 19:00:25.659">Setup failed:
-No keyword with name 'Begin Web Test' found.
+<status status="FAIL" endtime="20180527 19:09:07.997" critical="yes" starttime="20180527 19:09:07.993">Setup failed:
+No keyword with name 'Common.Begin Web Test' found.
 
 Also teardown failed:
-No keyword with name 'End Web Test' found.</status>
+No keyword with name 'Common.End Web Test' found.</status>
 </test>
 <test id="s1-t2" name="Logged out user can view a product">
-<kw type="setup" name="Begin Web Test">
-<msg timestamp="20180527 19:00:25.665" level="FAIL">No keyword with name 'Begin Web Test' found.</msg>
-<status status="FAIL" endtime="20180527 19:00:25.665" starttime="20180527 19:00:25.665"></status>
+<kw type="setup" name="Common.Begin Web Test">
+<msg timestamp="20180527 19:09:08.000" level="FAIL">No keyword with name 'Common.Begin Web Test' found.</msg>
+<status status="FAIL" endtime="20180527 19:09:08.000" starttime="20180527 19:09:08.000"></status>
 </kw>
-<kw type="teardown" name="End Web Test">
-<msg timestamp="20180527 19:00:25.667" level="FAIL">No keyword with name 'End Web Test' found.</msg>
-<status status="FAIL" endtime="20180527 19:00:25.667" starttime="20180527 19:00:25.667">No keyword with name 'End Web Test' found.</status>
+<kw type="teardown" name="Common.End Web Test">
+<msg timestamp="20180527 19:09:08.001" level="FAIL">No keyword with name 'Common.End Web Test' found.</msg>
+<status status="FAIL" endtime="20180527 19:09:08.001" starttime="20180527 19:09:08.001">No keyword with name 'Common.End Web Test' found.</status>
 </kw>
 <tags>
 <tag>Smoke</tag>
 </tags>
-<status status="FAIL" endtime="20180527 19:00:25.667" critical="yes" starttime="20180527 19:00:25.663">Setup failed:
-No keyword with name 'Begin Web Test' found.
+<status status="FAIL" endtime="20180527 19:09:08.002" critical="yes" starttime="20180527 19:09:07.998">Setup failed:
+No keyword with name 'Common.Begin Web Test' found.
 
 Also teardown failed:
-No keyword with name 'End Web Test' found.</status>
+No keyword with name 'Common.End Web Test' found.</status>
 </test>
 <test id="s1-t3" name="Logged out user can add product to cart">
-<kw type="setup" name="Begin Web Test">
-<msg timestamp="20180527 19:00:25.669" level="FAIL">No keyword with name 'Begin Web Test' found.</msg>
-<status status="FAIL" endtime="20180527 19:00:25.669" starttime="20180527 19:00:25.669"></status>
+<kw type="setup" name="Common.Begin Web Test">
+<msg timestamp="20180527 19:09:08.004" level="FAIL">No keyword with name 'Common.Begin Web Test' found.</msg>
+<status status="FAIL" endtime="20180527 19:09:08.004" starttime="20180527 19:09:08.004"></status>
 </kw>
-<kw type="teardown" name="End Web Test">
-<msg timestamp="20180527 19:00:25.671" level="FAIL">No keyword with name 'End Web Test' found.</msg>
-<status status="FAIL" endtime="20180527 19:00:25.671" starttime="20180527 19:00:25.671">No keyword with name 'End Web Test' found.</status>
+<kw type="teardown" name="Common.End Web Test">
+<msg timestamp="20180527 19:09:08.007" level="FAIL">No keyword with name 'Common.End Web Test' found.</msg>
+<status status="FAIL" endtime="20180527 19:09:08.007" starttime="20180527 19:09:08.006">No keyword with name 'Common.End Web Test' found.</status>
 </kw>
 <tags>
 <tag>Smoke</tag>
 </tags>
-<status status="FAIL" endtime="20180527 19:00:25.671" critical="yes" starttime="20180527 19:00:25.667">Setup failed:
-No keyword with name 'Begin Web Test' found.
+<status status="FAIL" endtime="20180527 19:09:08.007" critical="yes" starttime="20180527 19:09:08.002">Setup failed:
+No keyword with name 'Common.Begin Web Test' found.
 
 Also teardown failed:
-No keyword with name 'End Web Test' found.</status>
+No keyword with name 'Common.End Web Test' found.</status>
 </test>
 <test id="s1-t4" name="Logged out user must sign in to check out">
-<kw type="setup" name="Begin Web Test">
-<msg timestamp="20180527 19:00:25.674" level="FAIL">No keyword with name 'Begin Web Test' found.</msg>
-<status status="FAIL" endtime="20180527 19:00:25.674" starttime="20180527 19:00:25.674"></status>
+<kw type="setup" name="Common.Begin Web Test">
+<msg timestamp="20180527 19:09:08.009" level="FAIL">No keyword with name 'Common.Begin Web Test' found.</msg>
+<status status="FAIL" endtime="20180527 19:09:08.010" starttime="20180527 19:09:08.009"></status>
 </kw>
-<kw type="teardown" name="End Web Test">
-<msg timestamp="20180527 19:00:25.676" level="FAIL">No keyword with name 'End Web Test' found.</msg>
-<status status="FAIL" endtime="20180527 19:00:25.676" starttime="20180527 19:00:25.676">No keyword with name 'End Web Test' found.</status>
+<kw type="teardown" name="Common.End Web Test">
+<msg timestamp="20180527 19:09:08.012" level="FAIL">No keyword with name 'Common.End Web Test' found.</msg>
+<status status="FAIL" endtime="20180527 19:09:08.012" starttime="20180527 19:09:08.011">No keyword with name 'Common.End Web Test' found.</status>
 </kw>
 <tags>
 <tag>Smoke</tag>
 </tags>
-<status status="FAIL" endtime="20180527 19:00:25.676" critical="yes" starttime="20180527 19:00:25.672">Setup failed:
-No keyword with name 'Begin Web Test' found.
+<status status="FAIL" endtime="20180527 19:09:08.012" critical="yes" starttime="20180527 19:09:08.007">Setup failed:
+No keyword with name 'Common.Begin Web Test' found.
 
 Also teardown failed:
-No keyword with name 'End Web Test' found.</status>
+No keyword with name 'Common.End Web Test' found.</status>
 </test>
-<status status="FAIL" endtime="20180527 19:00:25.677" starttime="20180527 19:00:25.636"></status>
+<status status="FAIL" endtime="20180527 19:09:08.012" starttime="20180527 19:09:07.970"></status>
 </suite>
 <statistics>
 <total>
@@ -88,7 +88,7 @@ No keyword with name 'End Web Test' found.</status>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20180527 19:00:25.658" level="ERROR">Error in file '/Users/elliotbriant/Documents/Amazon-Test/tests/amazon.robot': Resource file '/Resources/Common.robot' does not exist.</msg>
-<msg timestamp="20180527 19:00:25.658" level="ERROR">Error in file '/Users/elliotbriant/Documents/Amazon-Test/tests/amazon.robot': Resource file '/Resources/Amazon.robot' does not exist.</msg>
+<msg timestamp="20180527 19:09:07.992" level="ERROR">Error in file '/Users/elliotbriant/Documents/Amazon-Test/tests/amazon.robot': Resource file 'Resources/Common.robot' does not exist.</msg>
+<msg timestamp="20180527 19:09:07.993" level="ERROR">Error in file '/Users/elliotbriant/Documents/Amazon-Test/tests/amazon.robot': Resource file 'Resources/Amazon.robot' does not exist.</msg>
 </errors>
 </robot>
